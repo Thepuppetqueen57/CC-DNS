@@ -9,14 +9,15 @@ function splitstring(str)
 end
 
 domains = {
-    ["dector.arpa"] = 14,
-    ["pluppet.arpa"] = 8,
-    ["ccclos.arpa"] = 15,
-    ["flyingmachine.arpa"] = 5
+    ["domain1.com"] = 14,
+    ["domain2.net"] = 8,
+    ["domain3.xyz"] = 15,
+    ["domain4.org"] = 5,
+    ["domain5.ccdns"] = 10,
 }
 
 shell.run("clear")
-print("ARPA DNS Server Running!")
+print("DNS Server Running!")
 
 rednet.open("left")
 while true do
